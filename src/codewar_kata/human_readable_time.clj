@@ -14,5 +14,3 @@
 
 (defn human-readable [s]
   (->> s make-time-list (map zero-padding) (clojure.string/join ":")))
-
-y
