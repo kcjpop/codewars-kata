@@ -1,5 +1,6 @@
 ![](https://img.shields.io/travis/kcjpop/codewars-kata/master.svg?style=flat-square)
-[![Coverage Status](https://coveralls.io/repos/kcjpop/codewars-kata/badge.svg?branch=master&service=github)](https://coveralls.io/github/kcjpop/codewars-kata?branch=master)
+[![Coveralls branch](https://img.shields.io/coveralls/kcjpop/codewars-kata/master.svg?style=flat-square)]()
+[![CircleCI branch](https://img.shields.io/circleci/project/kcjpop/codewars-kata/master.svg?style=flat-square)]()
 
 My wordspace for playing Clojure katas on CodeWars.
 
