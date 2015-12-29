@@ -41,5 +41,4 @@
     ; Map the list above into a result string
     ; Filter out empty values
     ; Concat with commas and "and" if nessearry
-    (let [time-list (make-time-list secs)]
-      (->> time-list (map format-time-map) (filter not-empty) concat-result))))
+    (->> secs make-time-list (map format-time-map) (filter not-empty) concat-result)))
